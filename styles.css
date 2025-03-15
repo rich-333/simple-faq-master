@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     height: 100vh;
+    background-image: url(https://www.ambientum.com/wp-content/uploads/2020/05/via-lactea.jpg);
 }
 
 .author-info {
@@ -18,3 +20,65 @@ body {
 .author-info a {
     text-decoration: none;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__box {
+    margin: 90px 0;
+    width: 1300px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+    padding: 60px;
+}
+
+.header__title {
+    padding: 15px;
+}
+
+.container__content--color {
+    background-color: aliceblue;
+}
+
+.container__content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 30px 30px;
+}
+
+.section__title {
+    padding: 17px 0;
+}
+
+.section__list {
+    margin: 20px;
+}
+
+.section__list__items {
+    padding: 6px 0;
+}
+
+.section__span {
+    color: rgb(53, 123, 255);
+}
+
+hr {
+    margin: 20px 0 0 30px;
+}
+
+.section__item--last {
+    margin: 0 0 50px 0;
+}
+
