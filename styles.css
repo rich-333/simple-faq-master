@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .container__box {
@@ -32,8 +33,9 @@ body {
     width: 1300px;
     height: 100%;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 20px;
     overflow: hidden;
+    border: 8px solid rgb(43, 43, 43);  
 }
 
 .header {
