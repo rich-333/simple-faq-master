@@ -89,7 +89,7 @@ hr {
     .container__box {
         width: 80%;
     }
-}
+} 
 
 @media (max-width: 541px) {
     .container__box {
